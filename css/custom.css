@@ -1,1 +1,132 @@
 /* your styles go here */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&display=swap");/* Para importar la fuente que vamos a utilizar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100px;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-image: linear-gradient(135deg,#fdfcfb 0%, #e2d1c3 100%);
+
+}
+
+.cards{
+    display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.card{
+    width: 500px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-color: #000;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1rem;
+}
+
+/* Para darle estilos diferentes a un elemento al pasar el cursor por encima */
+.card:hover{
+    opacity: 1;
+}
+
+/* Es una clase dinámica (manipulada con JavaScript), con esta clase logramos el efecto de abrir y cerrar un proyecto (card) 
+sobre el que hagamos click */
+.active{
+    transition: all 0.5s ease-in-out;
+    width: 500px;
+    height: 700px;
+    opacity: 1;
+}
+
+.icon_container{
+    width: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon{
+    stroke: #fff;
+    opacity: 1;
+}
+
+.info_container{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Con la clase "active" mas la clase de un elemente hijo de alguna de las "card" le damos estilo a cada elemento
+de las cards cuando esten activas */
+
+.active .info_container{
+    background-image: linear-gradient(90deg,rgba(0,0,0,0.6) 0%,rgba(255,255,255,0) 100%);
+    border-radius: 20px;
+}
+
+.info{
+    display: none;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    padding: 10px 15px;
+}
+
+.active .info{
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.active .icon_container{
+    width: 60px;
+    transition: all 0.5s ease-in-out;
+}
+
+.main{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.sub{
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

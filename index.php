@@ -39,7 +39,7 @@ include("conexion.php");
   <!-- navbar-->
   <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container"><a href="#references" class="navbar-brand scrollTo">Carlos Bejarano</a>
+      <div class="container"><a href="#references" class="navbar-brand scrollTo">Carlos Bejarano <h6>Full-Stack Developer</h6></a> 
         <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
         <div id="navbarcollapse" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
@@ -96,9 +96,10 @@ include("conexion.php");
                     </div>
                   </a>
                   <div data-images="img/banner/<?php echo $row->url_image; ?>" class="sr-only reference-description">
-                    <p><?php echo $row->descripcion; ?></p>
 
-                    <p class="buttons text-center"><a href="<?php echo $row->url_web; ?>" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visitas Sitio Web</a></p>
+                    <p class="buttons text-justify"><?php echo $row->descripcion; ?></p>
+                    <p class="buttons text-center"><a href="<?php echo $row->url_web; ?>" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visitar Sitio Web</a></p>
+
                   </div>
                 </div>
               </div>

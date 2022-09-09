@@ -1128,6 +1128,7 @@ STYLE SWITCHER FOR DEMO
   background-color: transparent;
   background-image: none;
   border-color: #9055A2;
+  /* border-radius: 0%; */
 }
 
 .btn-outline-primary:hover {
