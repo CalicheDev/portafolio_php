@@ -1,8 +1,9 @@
 /* your styles go here */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&display=swap");/* Para importar la fuente que vamos a utilizar */
 
-*{
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&display=swap"); */ /* Para importar la fuente que vamos a utilizar */
+
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,16 +37,16 @@ body{
     background-color: #000;
     transition: all 0.5s ease-in-out;
     border-radius: 1rem;
-}
+} */
 
 /* Para darle estilos diferentes a un elemento al pasar el cursor por encima */
-.card:hover{
+/* .card:hover{
     opacity: 1;
-}
+} */
 
 /* Es una clase dinámica (manipulada con JavaScript), con esta clase logramos el efecto de abrir y cerrar un proyecto (card) 
 sobre el que hagamos click */
-.active{
+/* .active{
     transition: all 0.5s ease-in-out;
     width: 500px;
     height: 700px;
@@ -69,10 +70,13 @@ sobre el que hagamos click */
     justify-content: center;
     align-items: center;
 }
+ */
+
+
 /* Con la clase "active" mas la clase de un elemente hijo de alguna de las "card" le damos estilo a cada elemento
 de las cards cuando esten activas */
 
-.active .info_container{
+/* .active .info_container{
     background-image: linear-gradient(90deg,rgba(0,0,0,0.6) 0%,rgba(255,255,255,0) 100%);
     border-radius: 20px;
 }
@@ -107,7 +111,7 @@ de las cards cuando esten activas */
     font-size: 18px;
     font-weight: 200;
     color: white;
-}
+} */
 
 
 

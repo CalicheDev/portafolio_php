@@ -39,7 +39,7 @@ include("conexion.php");
   <!-- navbar-->
   <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container"><a href="#references" class="navbar-brand scrollTo">Carlos Bejarano <h6>Full-Stack Developer</h6></a> 
+      <div class="container"><a href="#references" class="navbar-brand scrollTo">Carlos Bejarano </a> 
         <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
         <div id="navbarcollapse" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
