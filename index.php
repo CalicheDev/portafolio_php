@@ -8,6 +8,7 @@ include("conexion.php");
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Portafolio</title>
+
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
@@ -43,7 +44,9 @@ include("conexion.php");
         <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
         <div id="navbarcollapse" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#aboutme" class="nav-link link-scroll">Acerca de Mi</a></li>
             <li class="nav-item"><a href="#references" class="nav-link link-scroll">Mi portafolio</a></li>
+            <li class="nav-item"><a href="#contac" class="nav-link link-scroll">Contacto</a></li>
 
 
           </ul>
@@ -51,7 +54,6 @@ include("conexion.php");
       </div>
     </nav>
   </header>
-
 
 
 
@@ -65,7 +67,7 @@ include("conexion.php");
       <div class="col-sm-12">
         <div class="mb-5 text-center">
           <h2 data-animate="fadeInUp" class="title">Mis trabajos</h2>
-          <p data-animate="fadeInUp" class="lead">He trabajado en el desarrollo de los siguientes proyectos.</p>
+          <p data-animate="fadeInUp" class="lead">He trabajado y colaborado en el desarrollo de los siguientes proyectos.</p>
         </div>
 
         <div id="detail">
@@ -121,7 +123,7 @@ include("conexion.php");
     <div class="container">
       <div class="row">
         <div class="col-md-6 text-center text-lg-left">
-          <p class="social"><a href="https://www.linkedin.com/in/full-stack-carlos-bejarano/" class="external facebook wow fadeInUp"><i class="fa fa-linkedin"></i></a><a href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
+          <p class="social"><a href="https://www.linkedin.com/in/full-stack-carlos-bejarano/" data-wow-delay="0.2s" class="external linkedin wow fadeInUp"><i class="fa fa-linkedin"></i></a><a href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
         </div>
         <!-- /.6-->
         <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
