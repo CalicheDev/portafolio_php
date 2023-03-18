@@ -44,9 +44,9 @@ include("conexion.php");
         <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
         <div id="navbarcollapse" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="#aboutme" class="nav-link link-scroll">Acerca de Mi</a></li>
+            <li class="nav-item"><a href="aboutme.php" class="nav-link link-scroll">Acerca de Mi</a></li>
             <li class="nav-item"><a href="#references" class="nav-link link-scroll">Mi portafolio</a></li>
-            <li class="nav-item"><a href="#contac" class="nav-link link-scroll">Contacto</a></li>
+            <li class="nav-item"><a href="contac.php" class="nav-link link-scroll">Contacto</a></li>
 
 
           </ul>
