@@ -7,7 +7,7 @@ include("conexion.php");
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Portafolio</title>
+  <title>Acerca de Mi</title>
 
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,11 +44,34 @@ include("conexion.php");
         <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
         <div id="navbarcollapse" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="index.php" class="nav-link link-scroll">Inicio</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+              <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <a class="dropdown-item" href="#">Desarrollo de software</a>
+                <a class="dropdown-item" href="#">Desarrollo de aplicaciones móviles</a>
+                <a class="dropdown-item" href="#">Aplicaciones WEB personalizadas</a>
+                <a class="dropdown-item" href="#">Business Intelligence</a>
+                <a class="dropdown-item" href="#">Mantenimiento y Soporte</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
+              <div class="dropdown-menu" aria-labelledby="productsDropdown">
+                <a class="dropdown-item" href="#">Solucion ERP Clinic</a>
+                <a class="dropdown-item" href="#">Sistema de gestión de inventarios</a>
+                <a class="dropdown-item" href="#">Sistema control de gastos y presupuesto</a>
+                <a class="dropdown-item" href="#">Sistema control de pagos</a>
+                <a class="dropdown-item" href="#">Sistema de gestión documental</a>
+                <a class="dropdown-item" href="#">Sistema control de citas</a>
+                <a class="dropdown-item" href="#">App móvil control de pagos</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="aws.php" class="nav-link link-scroll">AWS</a></li>
+            <li class="nav-item"><a href="clients.php" class="nav-link link-scroll">Clientes</a></li>
             <li class="nav-item"><a href="aboutme.php" class="nav-link link-scroll">Acerca de Mi</a></li>
             <li class="nav-item"><a href="#references" class="nav-link link-scroll">Mi portafolio</a></li>
-            <li class="nav-item"><a href="contac.php" class="nav-link link-scroll">Contacto</a></li>
-
-
+            <li class="nav-item"><a href="contac.php" class="nav-link link-scroll">Contáctenos</a></li>
           </ul>
         </div>
       </div>
@@ -82,24 +105,9 @@ include("conexion.php");
 
 
 
-  <footer class="main-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 text-center text-lg-left">
-          <p class="social"><a href="https://www.linkedin.com/in/full-stack-carlos-bejarano/" data-wow-delay="0.2s" class="external linkedin wow fadeInUp"><i class="fa fa-linkedin"></i></a><a href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
-        </div>
-        <!-- /.6-->
-        <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
-          <p>© <?php echo date('Y'); ?> Carlos Bejarano. All rights reserved.</p>
-        </div>
-        <div class="col-12 mt-4">
-          <p class="template-bootstrapious">Template designed by <a href="https://www.bootstrapious.com">Bootstrapious</a>
-            <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php
+  include("./views/footer.php");
+  ?>
 
   <!-- JavaScript files-->
   <script src="vendor/jquery/jquery.min.js"></script>
