@@ -38,45 +38,9 @@ include("conexion.php");
 <body>
   <!-- Reference item-->
   <!-- navbar-->
-  <header class="header">
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container"><a href="#references" class="navbar-brand scrollTo">Carlos Bejarano </a>
-        <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
-        <div id="navbarcollapse" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.php" class="nav-link link-scroll">Inicio</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
-              <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-                <a class="dropdown-item" href="#">Desarrollo de software</a>
-                <a class="dropdown-item" href="#">Desarrollo de aplicaciones móviles</a>
-                <a class="dropdown-item" href="#">Aplicaciones WEB personalizadas</a>
-                <a class="dropdown-item" href="#">Business Intelligence</a>
-                <a class="dropdown-item" href="#">Mantenimiento y Soporte</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
-              <div class="dropdown-menu" aria-labelledby="productsDropdown">
-                <a class="dropdown-item" href="#">Solucion ERP Clinic</a>
-                <a class="dropdown-item" href="#">Sistema de gestión de inventarios</a>
-                <a class="dropdown-item" href="#">Sistema control de gastos y presupuesto</a>
-                <a class="dropdown-item" href="#">Sistema control de pagos</a>
-                <a class="dropdown-item" href="#">Sistema de gestión documental</a>
-                <a class="dropdown-item" href="#">Sistema control de citas</a>
-                <a class="dropdown-item" href="#">App móvil control de pagos</a>
-              </div>
-            </li>
-            <li class="nav-item"><a href="aws.php" class="nav-link link-scroll">AWS</a></li>
-            <li class="nav-item"><a href="clients.php" class="nav-link link-scroll">Clientes</a></li>
-            <li class="nav-item"><a href="aboutme.php" class="nav-link link-scroll">Acerca de Mi</a></li>
-            <li class="nav-item"><a href="#references" class="nav-link link-scroll">Mi portafolio</a></li>
-            <li class="nav-item"><a href="contac.php" class="nav-link link-scroll">Contáctenos</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <?php
+  include("./views/head.php");
+  ?>
 
 
 
@@ -85,19 +49,28 @@ include("conexion.php");
       <div class="col-sm-12">
         <div class="mb-5 text-center">
           <h2 data-animate="fadeInUp" class="title">Acerca de mi</h2>
-          <p data-animate="fadeInUp" class="lead">Full-Stack Developer | Laravel & React.js | Node.js - JavaScript - PHP, SQL Server - MySQL | Geek & Friki & Bitcoiner</p>
+          <p data-animate="fadeInUp" class="lead"></p>
         </div>
 
         <div>
-          <p data-animate="fadeInUp" class="lead">Soy Desarrollador Full-Stack. He realizado algunos proyectos usando PHP, JavaScript y también
-            utilizando tecnologías como Laravel, MySQL y SQLServer. Además soy competente en el uso de SQL Server y Windows. Mi objetivo es crecer como
-            Desarrollador y DevOps en el corto, mediano y largo plazo; pretendo alcanzar un alto nivel técnico y de análisis en el desarrollo de aplicaciones web, Big Data, Data Science
-            y desempeñar un papel en la arquitectura de software para crear excelentes aplicaciones que ayuden a mejorar el desempeño de las organizaciones, mejorar sus procesos y obtener de forma
-            rapida y agil los datos para una mejor toma de desiciones. Trabajo en equipo, comunicación y mejora continua, resolución de problemas y orientación a los detalles son habilidades que me permiten hacer
-            un excelente trabajo.</p>
+          <p data-animate="fadeInUp" class="lead">
+            Soy un Desarrollador Web y Analista de Datos con una amplia experiencia en el desarrollo de software personalizado, gestión de la información y bases de datos. Ofrezco mis servicios en Desarrollo Web, Análisis de Datos, Gestión de la Información y Desarrollo de Bases de Datos.</p>
         </div>
         <div>
-          <p data-animate="fadeInUp" class="lead">I am Full-Stack Developer. I've developed some projects using PHP, JavaScript, and also implemented technologies such as Laravel, MySQL and SQLServer. I am also proficient using SQL, and Windows. My goal is grow as a developer and DevOps, reach a high seniority level and take a role in software architecture to create great applications. Team player, communication, problem-solving, and detail-oriented are skills that allows me to do an excellent job.</p>
+          <p data-animate="fadeInUp" class="lead">
+            Tengo experiencia en el manejo de herramientas y tecnologías como Laravel, JavaScript, PHP, React.js, Django, Django REST framework, JSON Web Token (JWT), SQL Server T-SQL, Power BI y Power Pivot. He sido capaz de crear informes detallados y alertas de seguimiento que han ayudado a mis superiores a tomar decisiones basadas en datos.</p>
+        </div>
+        <div>
+          <p data-animate="fadeInUp" class="lead">
+            Mi objetivo profesional es ayudarte a llevar a cabo tus proyectos de manera eficiente y efectiva. Busco trabajar con empresas que valoren mis habilidades y me permitan aplicar todo lo que he aprendido hasta ahora, mientras continúo creciendo tanto personal como profesionalmente.</p>
+        </div>
+        <div>
+          <p data-animate="fadeInUp" class="lead">
+            Soy una persona apasionada por mi trabajo y siempre estoy buscando nuevas oportunidades para mejorar mis habilidades y alcanzar mis metas. Estoy comprometido con mi desarrollo continuo y siempre estoy buscando maneras de mejorar y crecer profesionalmente</p>
+        </div>
+        <div>
+          <p data-animate="fadeInUp" class="lead">
+            Si estás buscando servicios de Desarrollo Web, App móviles, BI, AWS y Analisis de Datos, estoy seguro de que puedo cumplir tus necesidades. Por favor, no dudes en contactarme a través de LinkedIn o enviarme un correo electrónico para discutir cómo puedo ayudarte a alcanzar tus objetivos.</p>
         </div>
       </div>
     </div>
